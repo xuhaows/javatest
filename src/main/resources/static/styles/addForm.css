@@ -1,0 +1,30 @@
+.login{ font:黑体 18px; margin:0 auto; padding-top:270px;}
+from{ width:300px; height:200px;}
+table{ width:300px; height:100px; margin:0 auto;}
+td{ height:50px;}
+td input {height:25px;width: 160px}
+td input:hover { border: #0066FF 1px groove;}
+a{ float:left; background-image:url(../images/btn.png); font-size:16px; font-weight:bold;color:#FFFFFF; display:block; width:92px; height:37px; margin-left:40px; line-height:37px; text-align:center;}
+a:hover{ text-decoration:none;}
+
+select{
+	width:160px;
+	height:33px;
+	padding-left:10px;
+	float:left;
+	background-color: #fff;
+    background-image: none;
+    color: #555;
+    font-size: 14px;
+	display:inline;
+	 border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+	}	
+select option{
+	 border: 1px solid  #F00;
+	}
+select option:hover{
+	 background-color: #999;
+	 color:#FFF;
+	 }

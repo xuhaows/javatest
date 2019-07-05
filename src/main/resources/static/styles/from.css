@@ -1,0 +1,40 @@
+﻿/* CSS Document */
+
+table{ font-size:14px; text-align:right; border:#CCCCCC 1px solid; background-color: #EEEEEE; padding-right:20px; padding-left:5px;}
+tr{ height:40px;}
+td {height:35px;}
+td input {height:25px;}
+td input:hover { border: #0066FF 1px solid;}
+.p1{ font:"宋体" 30px bold;}
+.blue{ background-color: #E8E8E8; width:160px;}
+
+/*企业注册表*/
+.from_div1{ width:967px; height:auto; margin:0 auto; text-align:center; padding-bottom:10px;}
+.from_div1 span{ width:242px; height:100px; font-size:25px; margin:0 auto; text-align:center;}
+.style_f{width:955px; margin-bottom:10px;}
+
+
+/*换发申请表*/
+.from_div2{ width:967px; height:auto; margin:0 auto; text-align:center; padding-top:20px;}
+.from_div2 ul { margin:0 auto;}
+.from_div2 span{ width:242px; height:100px; font-size:25px; margin:0 auto; text-align:center;}
+
+.tab { width:967px; height: auto; margin:0 auto;}
+.tab_menu { width:967px; margin:0 auto;}
+.tab_menu li { 
+ float:left; 
+ text-align:center; 
+ cursor:pointer; 
+ list-style:none; 
+ width:190px; height:35px;
+ font-size:14px;
+ font-weight:bold;
+ line-height:35px;
+ background-color: #33CCFF;
+ margin:0 auto;
+ color:#FFFFFF; }
+.tab_menu li.hover { color: #0066FF;}
+.tab_menu li.selected { width:207px; color: #000000; background-color: #EEEEEE;height:35px;}
+.tab_box { width:967px; height:auto; clear:both; margin:0 auto;background-color: #EEEEEE;}
+.hide{display:none}
+ 

@@ -1,0 +1,5 @@
+﻿.message{ width:955px; height:40px; margin:0 auto; line-height:40px; text-align:left; padding-left:20px;}
+.message ul li{ float:left; width:100px; margin-right:50px;}
+.message_main{ width:955px; height:40px; margin:0 auto;}
+.message_main li{ height:30px; text-align:left; border-bottom:#FFFFFF 1px dashed; padding-left:10px;}
+.message_main li label{ margin-left:40px;}

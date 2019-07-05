@@ -1,0 +1,34 @@
+# tomcat配置
+server:
+  #端口号
+  port: 9090
+  #项目路径
+  context-path: /myapp
+
+# 使用dev(开发环境)、prod(生产环境)、test(测试环境)
+spring:
+  profiles:
+    active: dev
+  # 配置jsp视图
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  http:
+    #过滤字符编码
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+# mybatis配置
+mybatis:
+  # 配置mapper的扫描,找到所有的mapper.xml映射文件
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  # 加载全局的配置文件
+  configLocation: classpath:mybatis/mybatis-config.xml
+# pagehelper分页助手-另一种方式在代码里配置 
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql

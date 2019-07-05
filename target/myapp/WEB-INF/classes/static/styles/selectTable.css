@@ -1,0 +1,46 @@
+﻿/* CSS Document */
+
+
+a, a:visited{
+	color: #0099FF;}
+#box{
+	border:1px solid  #CEEAF9;
+	
+}
+#box h3{
+	background: #CEEAF9;
+	border-bottom:1px solid #e8e7e1;
+	color: #003399;
+	padding:5px;
+	font-size:14px;
+}
+#content{
+   
+	width:100%;
+	float:left;
+	margin:0px 0px;
+	
+}
+
+table{
+	margin:5px;
+	width:100%;
+	border-collapse: collapse;
+	table-layout:automatic;
+	background:none;
+}
+td, th{
+height:30px;
+	padding: 2px;
+	border:1px solid #e8e7e1;
+} 
+tr{border:#336699 1px solid;}
+
+thead{background: #00CCFF; color:#FFFFFF;}
+
+#info_list{
+	width:100%;
+	height:500px;
+	overflow:auto;
+}
+	
